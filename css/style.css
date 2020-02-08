@@ -1,0 +1,240 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.leftmenu {
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+}
+
+.leftmenu_logo {
+    display: flex;
+    height: 50px;
+    background-color: #ededee;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid;
+    font-family: Damascus;
+    font-size: 21px;
+}
+
+.inputinfo {
+    width: 250px;
+    height: 33px;
+    background: #f7f7f7;
+    box-sizing: border-box;
+    padding: 0 10px;
+    color: #2f2f2f;
+    font-family: "Arial";
+    font-size: 14px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.description {
+    font-family: Damascus;
+    font-size: 18px;
+    color: black;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.leftmenu_button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 50px 100px 0 127px;
+    border-radius: 15px;
+    outline: none;
+    width: 150px;
+    transition: all 0.3s ease;
+}
+
+.leftmenu_button:hover {
+    margin-left:0 ;
+    background-color: white;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.leftmenu_button:active {
+    background-color: wheat;
+    color: black;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: black;
+    border-left: none;
+    flex: 1;
+}
+
+.search {
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid;
+    border-color: black;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ededee;
+    font-family: Damascus;
+    font-size: 21px;
+}
+
+.leftblock {
+    display: flex;
+}
+
+.rightblock {
+    display: flex;
+
+}
+
+.inputsearch {
+    width: 500px;
+    height: 33px;
+    background: white;
+    box-sizing: border-box;
+    padding: 0 10px;
+    color: #2f2f2f;
+    font-family: "Arial";
+    font-size: 14px;
+    outline: none;
+    border: 1px solid black;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-right: none;
+}
+
+.searchbutton {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid black;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-size: 18px;
+    background-color: #f7f7f7;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+button {
+    height: 33px;
+}
+
+.inputblock {
+    display: flex;
+}
+
+.searchbutton:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.searchbutton:active {
+    background-color: wheat;
+}
+
+.userinfo {
+    display: flex;
+    height: 400px;
+}
+
+table.blueTable {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-left: none;
+}
+
+table.blueTable td, table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+
+table.blueTable tbody td {
+    font-size: 13px;
+    border-left: none;
+}
+
+table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+}
+
+table.blueTable thead {
+    background: #EDEDEE;
+    background: -moz-linear-gradient(top, #f1f1f2 0%, #eeeeef 66%, #EDEDEE 100%);
+    background: -webkit-linear-gradient(top, #f1f1f2 0%, #eeeeef 66%, #EDEDEE 100%);
+    background: linear-gradient(to bottom, #f1f1f2 0%, #eeeeef 66%, #EDEDEE 100%);
+    border-bottom: 2px solid #444444;
+}
+
+table.blueTable thead th {
+    text-align: center;
+}
+
+table.blueTable thead th:first-child {
+    border-left: none;
+}
+
+table.blueTable tfoot td {
+    font-size: 14px;
+}
+
+table.blueTable tfoot .links {
+    text-align: right;
+}
+
+table.blueTable tfoot .links a {
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.delbtn {
+    border-radius: 5px;
+    width: 80px;
+    outline: none;
+    background-color: #EDEDEE;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+.delbtn:hover {
+    width: 160px;
+    color: red;
+}
