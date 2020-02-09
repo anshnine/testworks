@@ -65,14 +65,14 @@
     border-radius: 15px;
     outline: none;
     width: 150px;
-    transition: all 0.3s ease;
+
 }
 
 .leftmenu_button:hover {
-    margin-left:0 ;
+    margin-left: 90px;
     background-color: white;
     text-transform: uppercase;
-    width: 100%;
+    width: 200px;
 }
 
 .leftmenu_button:active {
